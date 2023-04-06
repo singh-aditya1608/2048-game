@@ -8,9 +8,9 @@ Then follow the below steps
 
   1 clone this repository on your local machine.
   
-  2 run command to build the image -- docker build -t <image name> . (The dot is used if you are in the same directory where the docker file is present)
+  2 run command to build the image --> docker build -t <image name> . (The dot is used if you are in the same directory where the docker file is present)
   
-  3 run command to build the conatiner -- docker run -d -p 80:80 <image tag> (The image tag will be generated after image build) 
+  3 run command to build the conatiner --> docker run -d -p 80:80 <image tag> (The image tag will be generated after image build) 
   
   4 hit your browser ---> http://localhost:80
   
